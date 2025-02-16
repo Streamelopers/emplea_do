@@ -39,6 +39,7 @@ namespace Migrations
                 .WithColumn("VerifiedAt").AsDateTime().Nullable()
                 .WithColumn("UserId").AsInt32().NotNullable();
 
+
             Create.Table(TableNameConstants.JobPostings)
                 .WithCommonColumns()
                 .WithColumn("Title").AsString().NotNullable()
