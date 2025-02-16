@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35728.132 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{062B7BC3-FD7E-4FFD-9A30-BCF2FC290816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{8FAB2621-4620-437B-8036-AA8A12751365}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migrations", "Migrations\Migrations.csproj", "{B6F6F51F-8BDB-4911-8893-03644BCA6510}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1EF7079E-8352-4774-8244-6D5201C37B7D}"
+	ProjectSection(SolutionItems) = preProject
+		run_migrations.bat = run_migrations.bat
+		run_postgresql.bat = run_postgresql.bat
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{062B7BC3-FD7E-4FFD-9A30-BCF2FC290816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062B7BC3-FD7E-4FFD-9A30-BCF2FC290816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062B7BC3-FD7E-4FFD-9A30-BCF2FC290816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062B7BC3-FD7E-4FFD-9A30-BCF2FC290816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FAB2621-4620-437B-8036-AA8A12751365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAB2621-4620-437B-8036-AA8A12751365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAB2621-4620-437B-8036-AA8A12751365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAB2621-4620-437B-8036-AA8A12751365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6F6F51F-8BDB-4911-8893-03644BCA6510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F6F51F-8BDB-4911-8893-03644BCA6510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F6F51F-8BDB-4911-8893-03644BCA6510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F6F51F-8BDB-4911-8893-03644BCA6510}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
