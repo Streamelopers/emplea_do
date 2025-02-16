@@ -18,6 +18,7 @@ namespace Migrations
         {
             Delete.Table(TableNameConstants.JobPostings);
             Delete.Table(TableNameConstants.Users);
+            Delete.Table(TableNameConstants.Companies);
         }
 
         public override void Up()
@@ -61,9 +62,9 @@ namespace Migrations
 
         Create.Table(TableNameConstants.Users)
                 .WithCommonColumns()
-                .WithColumn("Name").AsString(50).NotNullable()
+                .WithColumn("Name").AsString(100).NotNullable()
                 .WithColumn("Email").AsString(100).NotNullable()
-                .WithColumn("Password").AsString(256).NotNullable();
+                .WithColumn("Password").AsString(int.MaxValue).NotNullable();
         }
     }
 }
